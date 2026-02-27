@@ -34,6 +34,7 @@
 *.o.*
 *.order
 *.patch
+*.rej
 *.s
 *.so
 *.so.dbg
@@ -132,3 +133,7 @@ all.config
 
 # Kdevelop4
 *.kdev4
+
+# Add
+clang
+out

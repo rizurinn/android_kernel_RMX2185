@@ -33,13 +33,6 @@ static inline long do_strnlen_user(const char __user *src, unsigned long count, 
 	unsigned long c;
 
 	/*
-	 * Truncate 'max' to the user-specified limit, so that
-	 * we only have one limit we need to check in the loop
-	 */
-	if (max > count)
-		max = count;
-
-	/*
 	 * Do everything aligned. But that means that we
 	 * need to also expand the maximum..
 	 */
