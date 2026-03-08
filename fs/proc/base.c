@@ -97,6 +97,7 @@
 #include <linux/cpufreq_times.h>
 #if defined(OPLUS_FEATURE_VIRTUAL_RESERVE_MEMORY) && defined(CONFIG_VIRTUAL_RESERVE_MEMORY)
 #include <linux/vm_anti_fragment.h>
+#endif
 #ifdef CONFIG_KSU_SUSFS_SUS_MAP
 #include <linux/susfs_def.h>
 #endif
